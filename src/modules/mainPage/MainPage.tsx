@@ -1,8 +1,9 @@
 import React from 'react';
+import PersonCards from '../personCards';
 
 const MainPage: React.FC = () => {
     return(
-        <h1>2</h1>
+        <PersonCards data-at='person-cards'/>
     )
 }
 

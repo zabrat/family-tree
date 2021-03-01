@@ -1,0 +1,1 @@
+export const getPeopleList = (state: any) => state.PersonCards.peopleList;

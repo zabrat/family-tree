@@ -2,10 +2,10 @@ import React from 'react';
 import MainPage from './modules/mainPage/MainPage';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <MainPage/>
   );
 }
 
-export default App;
+export default React.memo(App);

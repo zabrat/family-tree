@@ -1,4 +1,4 @@
 export enum constants {
-    SAVE_TASK = 'SAVE_TASK',
-    DELETE_TASK = 'DELETE_TASK',
+    GET_PEOPLE_LIST = 'GET_PEOPLE_LIST',
+    SET_PEOPLE_LIST = 'SET_PEOPLE_LIST',
 }
